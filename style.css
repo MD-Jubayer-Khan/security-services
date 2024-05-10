@@ -1,0 +1,37 @@
+.header {
+    background-image: url("./assets/banner.png"),
+      linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    height: 750px;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+.img {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.title {
+    margin-top: 220px;
+    margin-left: 250px;
+}
+
+.banner-title {
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px;
+  }
+
+
+.banner-img img {
+    height: 677px;
+    padding: 20px 20px 0px 20px;
+  }
+.banner-img {
+    margin-top: -90px;
+    margin-left: -250px;
+  }
