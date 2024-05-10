@@ -47,3 +47,16 @@
     border: 1px solid rgb(194, 191, 191);
     text-align: center;
 }
+.box:hover{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    background-image: url("./assets/l1.png");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.custom-footer{
+    height: 280px;
+    background-color: #0B0D17;
+}
