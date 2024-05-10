@@ -1,6 +1,6 @@
 .header {
-    background-image: url("./assets/banner.png"),
-      linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-image: url("./assets/banner.png");
+      
     height: 750px;
     width: 100%;
     background-blend-mode: overlay;
@@ -20,12 +20,14 @@
 }
 
 .banner-title {
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
     font-style: italic;
-    margin: 10px;
   }
-
+.button-rd {
+    margin-left: 90px;
+    margin-top: 8px;
+}
 
 .banner-img img {
     height: 677px;
@@ -35,3 +37,13 @@
     margin-top: -90px;
     margin-left: -250px;
   }
+.icons {
+    margin:0px 50px;
+    background-color: rgb(244, 244, 244);
+}
+.box {
+    height: 280px;
+    width: 360px;
+    border: 1px solid rgb(194, 191, 191);
+    text-align: center;
+}
